@@ -1,0 +1,9 @@
+from Beats_Management.Serializers.GenreSerializer import GenreDropDownSerializer, GenreSerializer, \
+    SubGenreSerializer, CreateSubGenreSerializer
+from Beats_Management.Serializers.InstrumentSerializer import InstrumentDropdownSerializer, InstrumentSerializer, \
+    CreateSubInstrumentSerializer, SubInstrumentSerializer
+from Beats_Management.Serializers.MoodSerializer import BeatMoodsDropdownSerializer, BeatMoodSerializer
+from Beats_Management.Serializers.BeatSubmissionsSerializer import BeatSubmissionsSerializer, \
+    BeatRevisedAudioFileSerializer
+from Beats_Management.Serializers.PluginSerializer import PluginDropdownSerializer, PluginSerializer
+from Beats_Management.Serializers.ViewBeatsSerializer import ViewBeatsSerializer

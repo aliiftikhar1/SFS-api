@@ -1,0 +1,9 @@
+from Product_Management.Serializers.GenreSerializer import GenreDropDownSerializer, GenreSerializer, \
+    SubGenreSerializer, CreateSubGenreSerializer
+from Product_Management.Serializers.InstrumentSerializer import InstrumentDropdownSerializer, InstrumentSerializer, \
+    CreateSubInstrumentSerializer, SubInstrumentSerializer
+from Product_Management.Serializers.MoodSerializer import MoodsDropdownSerializer, MoodSerializer
+from Product_Management.Serializers.PackSubmissionsSerializer import PackSubmissionsSerializer, \
+    RevisedAudioFileSerializer
+from Product_Management.Serializers.PluginSerializer import PluginDropdownSerializer, PluginSerializer
+from Product_Management.Serializers.ViewPacksSerializer import ViewPacksSerializer
